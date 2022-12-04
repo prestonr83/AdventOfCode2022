@@ -1,7 +1,4 @@
-﻿using System.Numerics;
-using System.Text.RegularExpressions;
-
-var input = System.IO.File.ReadLines(@"C:\GIT\AdventOfCode2022\AdventOfCode2022\Day3\input.txt");
+﻿var input = System.IO.File.ReadLines(@"C:\GIT\AdventOfCode2022\AdventOfCode2022\Day3\input.txt");
 
 
 // Part 1
