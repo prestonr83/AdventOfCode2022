@@ -52,7 +52,7 @@ class CrateMover9000
 {
     public static List<List<string>> execute(List<List<string>> cargo, string[] instructions)
     {
-        var copy = cargo.Select(x => x.ToList()).ToList(); // Creating copy because I cannot figure out why its mutating the supplied parameter outside of the method !?
+        var copy = cargo.Select(x => x.ToList()).ToList();
         Regex regex = new Regex(@"move (?<count>\d+) from (?<source>\d+) to (?<destination>\d+)");
         foreach (var instruction in instructions)
         {
@@ -75,7 +75,7 @@ class CrateMover9001
 {
     public static List<List<string>> execute(List<List<string>> cargo, string[] instructions)
     {
-        var copy = cargo.Select(x => x.ToList()).ToList(); // Creating copy because I cannot figure out why its mutating the supplied parameter outside of the method !?
+        var copy = cargo.Select(x => x.ToList()).ToList();
         Regex regex = new Regex(@"move (?<count>\d+) from (?<source>\d+) to (?<destination>\d+)");
         foreach (var instruction in instructions)
         {
