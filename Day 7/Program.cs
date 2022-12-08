@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-var input = System.IO.File.ReadLines(@".\input.txt");
+﻿var input = System.IO.File.ReadLines(@".\input.txt");
 
 
 var root = new DirectoryInfo
